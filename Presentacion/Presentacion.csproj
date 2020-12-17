@@ -7,13 +7,13 @@
     <ProjectGuid>{D2331543-7E4F-49AF-8609-3207CE747748}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Presentacion</RootNamespace>
-    <AssemblyName>Presentacion</AssemblyName>
+    <AssemblyName>App</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\leandro\Documents\Programacion3\dp\</PublishUrl>
+    <PublishUrl>C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase3\Clase01Apoyatura\dp\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationRevision>11</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -53,13 +53,13 @@
     <StartupObject>Presentacion.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icono.ico</ApplicationIcon>
+    <ApplicationIcon>tech_electronics_icon_156954.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>64ABCC79A70AE7F3768C20FE0284F6EB9B12CF8A</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>7E6588769748C34F85C931FF20EF91BCEE24F527</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Presentacion_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Presentacion_2_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -171,6 +171,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Presentacion_2_TemporaryKey.pfx" />
     <None Include="Presentacion_TemporaryKey.pfx" />
     <None Include="Properties\DataSources\Negocio.Objetos.DataProducto.datasource" />
     <None Include="Properties\DataSources\Negocio.Objetos.DataUsuario.datasource" />
@@ -202,6 +203,7 @@
   <ItemGroup>
     <Content Include="icono.ico" />
     <Content Include="presentacion.ico" />
+    <Content Include="tech_electronics_icon_156954.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
